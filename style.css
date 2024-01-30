@@ -1,0 +1,83 @@
+body{
+  background-color: rgb(248, 255, 145);
+  font-family: 'Comic Sans MS';
+  src: url("comic-sans-ms/comici.ttf");
+}
+
+
+ul {
+  font-family: 'Comic Sans MS';
+  src: url("comic-sans-ms/comici.ttf");
+  list-style-type:none;
+  padding: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+li a {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(92, 255, 241);
+  float: left;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(240, 0, 0);
+  color: white;
+}
+.logo{
+  float: right;
+}
+.logoimage{
+  float: right;
+  width: 50%;
+}
+.titlepart{
+  text-align: center;
+  color: white;
+  padding: 1%;
+  background-color: rgb(0, 89, 255);
+  left: -25%;
+  float:right;
+  position:relative;
+  width: 50%;
+}
+.nav{
+  width: 50%;
+  
+}
+.namesnav{
+  background-color: transparent; 
+  margin-bottom: 5%;
+  float: left;
+}
+.namesli{
+  background-color: rgb(0, 255, 128);
+}
+.titletext{
+  width: auto;
+  color: blue;
+}
+.abouttitle{
+float: left;
+width: auto;
+}
+.abouttext{
+color: blue;
+width: 51%;
+background-color: lightblue;
+float: left;
+}
+.contactbody{
+width: auto;
+float:left;
+font-size: x-large;
+}
+.contacttext{
+background-color: red;
+color: white;
+}
