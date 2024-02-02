@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(239, 255, 169);
+  font-family: 'Comic Sans MS';
+  src: url("comic-sans-ms/comici.ttf");
+}
+
+
+ul {
+  font-family: 'Comic Sans MS';
+  src: url("comic-sans-ms/comici.ttf");
+  list-style-type:none;
+  padding: 0;
+  background-color: transparent;
+}
+
+li a {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(97, 247, 227);
+  float: left;
+  color: rgb(0, 0, 0); 
+  margin-right: 1px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.abouttitle{
+  color:white;
+  padding: 0.5%;
+  background-color: rgb(39, 98, 206);
+  margin: 10px auto;
+  width: 50%;
+}
+
+.abouttext{
+  width: 50%;
+  color:white;
+  padding: 0.5%;
+  background-color: rgb(39, 98, 206);
+  margin: -10px auto;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(240, 0, 0);
+  color: white;
+}
+.namesli{
+  background-color: rgb(152, 255, 152);
+}
+.logoimage{
+  float: right;
+  width: 8%;
+  padding: 1%;
+}
+.mainnav{
+  white-space:pre;
+  padding: 0.5%;
+  margin: 0;
+  background-color: rgb(121, 175, 224);
+}
+.titlepart{
+  text-align: center;
+  color: white;
+  padding: 1%;
+  background-color: rgb(39, 98, 206);
+  width: 50%;
+
+  position:relative;
+  margin: 50px auto;
+}
+.namesnav{
+ margin:0;
+ padding: 0.5%;
+ background-color: rgb(121, 175, 224);
+ height: 50px;
+}
+
+.ad{
+  margin: 50px auto;
+  float: left;
+  width: auto;
+}
