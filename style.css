@@ -35,7 +35,7 @@ li a {
   color:white;
   padding: 0.5%;
   background-color: rgb(39, 98, 206);
-  margin: -10px auto;
+  margin: 0 auto;
 }
 /* Change the link color on hover */
 li a:hover {
